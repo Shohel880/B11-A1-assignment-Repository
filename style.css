@@ -1,0 +1,13 @@
+*{
+    background-color: aliceblue;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.sriti-saudha{
+    display: flex;
+}
+.card-1{
+    display: flex;
+}
