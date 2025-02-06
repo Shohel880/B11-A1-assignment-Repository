@@ -104,11 +104,17 @@
 .section-main-1,.section-main-2,.main-1-1,.hero{
     background-color: rgb(13, 238, 238);
     }
+.section-pillars-bangladesh{
+        margin-top: 75px;
+    }
 .section-pillars-bangladesh,.the-vision-future{
     font-family: Fira Sans;
     margin-left: 0 auto;
     margin-top: 70px;
     font-weight: 800px;
+    }
+    .the-vision-future{
+        margin-top: 75px;
     }
 .innovation, .div-pillars-2{
     font-family: Fira Sans;
@@ -137,7 +143,7 @@
     }
 .innovation-2{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     }
 .innovation-box-01{
     display: flex;
@@ -236,3 +242,141 @@
     background-color: white;
     margin-bottom: 0px;
     }
+.main-h{
+    margin-top: 75px;
+    }
+.main-div{
+    height: 450px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border-radius: 8px;
+    background-color: white;
+    font-family: Fira Sans;
+    padding-top: 20px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 8px;
+    }
+.main-h{
+    font-family: Fira Sans;
+}
+.main-table{
+    position: static;
+    margin-right: auto;
+    margin-left: auto;
+    /* margin-top: 35px; */
+    width: 813.6px;
+    height: 294.4px;
+}
+.main-table,.tr,.td,.th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+.th-1{
+    height: 50px;
+    margin-left: 0px;
+    }
+.div-th{
+    height: 50px;
+    width: 813.6px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    background-color: rgb(198, 228, 214);
+    position: relative;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 8px;
+}
+.button{
+    height: 35.2px;
+    width: 121.6px;
+    margin-left: 5px;
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: rgb(198, 228, 214);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+.div-th-1{
+    background-color: rgb(198, 228, 214);
+    padding-left: 30px;
+    padding-top: 15px;
+}
+.div-th-2{
+    background-color: rgb(198, 228, 214);
+    padding-right: 25px;
+    padding-top: 15px;
+    }
+.bd-news{
+    height: 96px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+.sl-sec-main1,.sl-sec-hd1,.sl-sec-h1,.sl-sec-jazeera1,.sl-sec-p1,.sl-sec-sl1{
+    background-color: white;
+    border-radius: 10px;
+    }
+.sl-sec-main1{
+    display: flex;
+    padding: 38.4px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: Fira Sans;
+    height: 321.6px;
+    width: 1024px;
+    border-radius: 10px;
+}
+.sl-sec-hd1{
+    margin-right: 25.6px;
+}
+.sl-sec-sl1,.sl-sec-sl2{
+    height: 244.8px;
+    width: 326.4px;
+}
+.sl-sec-main2,.sl-sec-hd2,.sl-sec-h2,.sl-sec-jazeera2,.sl-sec-p2,.sl-sec-sl2{
+    background-color: white;
+    border-radius: 10px;
+    }
+.sl-sec-main2{
+    display: flex;
+    padding: 38.4px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: Fira Sans;
+    height: 321.6px;
+    width: 1024px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+.sl-sec-hd2{
+    margin-left: 25.6px;
+}
+.date-time{
+    background-color: white;
+    display: block;
+    font-family: Fira Sans;
+    margin-top: 10px;
+}
+.date{
+    background-color: white;
+}
+time{
+    background-color: white;
+}
