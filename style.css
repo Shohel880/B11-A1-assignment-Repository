@@ -54,7 +54,6 @@
     background-color: rgb(0, 106, 80);
     color: white;
     }
-
 .section-main-1{
     display: flex;
     position: relative;
@@ -67,7 +66,6 @@
     border-radius: 24px;
     box-shadow: 5px 5px 25px 0.5px rgb(249, 248, 248);  
     }
-
 .main-1-1{
     margin-top: auto;
     margin-bottom: auto;
@@ -93,28 +91,34 @@
     }
 .main-bangladesh-explore:hover{
     background-color: rgb(110, 106, 106);
-    /* color:rgb(236, 244, 244); */
     }
 .hero{
     height: 263px;
     width: 380px;
     margin-top: 60px;
     }
-    
 .section-main-1,.section-main-2,.main-1-1,.hero{
     background-color: rgb(13, 238, 238);
     }
 .section-pillars-bangladesh{
-        margin-top: 75px;
+    margin-top: 75px;
+    height: 27px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Fira Sans;
     }
 .section-pillars-bangladesh,.the-vision-future{
     font-family: Fira Sans;
-    margin-left: 0 auto;
     margin-top: 70px;
     font-weight: 800px;
     }
-    .the-vision-future{
-        margin-top: 75px;
+.the-vision-future{
+    margin-top: 75px;
+    height: 27px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1175px;
     }
 .innovation, .div-pillars-2{
     font-family: Fira Sans;
@@ -127,10 +131,10 @@
     }
 .div-pillars{
     background-color: rgb(236, 244, 244);
-    width: 241.6px;
+    width: 263px;
     height: 192.2px;
     padding: 10px;
-    margin: 10px;
+    margin: 12px;
     border-radius: 8px;
     box-shadow: 5px 5px 25px 0.5px rgb(183, 182, 182);
     }
@@ -149,7 +153,7 @@
     display: flex;
     margin-top: 20px;
     margin-bottom: 40px;
-}
+    }
 .innovation-box-1{
     margin: 10px;
     height:260px;
@@ -161,6 +165,12 @@
     }
 .innovation-child-img-1,.innovation-child-p-1,.innovation-child-h-1{
     background-color:rgba(84, 144, 245, 0);
+    }
+.innovation-child-p{
+    height: 40px;
+    width: 1175px;
+    margin-left: auto;
+    margin-right: auto;
     }
 .innovation-box-2{
     margin: 10px;
@@ -182,10 +192,10 @@
     border-radius: 8px;
     font-family: Fira Sans;
     background-color:rgb(247, 235, 207);
-}
+    }
 .innovation-child-img-3,.innovation-child-p-3,.innovation-child-h-3{
     background-color:rgb(247, 235, 207);
-}
+    }
 .innovation-box-1,.innovation-box-2,.innovation-box-3{
     box-shadow: 5px 5px 25px 0.5px rgb(249, 248, 248);
     }
@@ -216,11 +226,9 @@
     background-attachment:initial;
     margin-top: 0px;
     }
-    
 .dm-yunus-h{
     background-color: white;
     display: inline;
-    /* margin-bottom: 0px; */
     }
 .dm-yunus-small{
     background-color: white;
@@ -228,6 +236,10 @@
     }
 .main-h{
     margin-top: 75px;
+    height: 40px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
     }
 .main-div{
     height: 450px;
@@ -242,6 +254,8 @@
     padding-left: 1px;
     padding-right: 1px;
     border-radius: 8px;
+    box-shadow: 5px 5px 25px 0.5px rgb(212, 211, 211);
+
     }
 .main-h{
     font-family: Fira Sans;
@@ -250,7 +264,6 @@
     position: static;
     margin-right: auto;
     margin-left: auto;
-    /* margin-top: 35px; */
     width: 813.6px;
     height: 294.4px;
     }
@@ -303,11 +316,17 @@
     padding-top: 15px;
     }
 .bd-news{
-    height: 96px;
-    width: 1024px;
+    height: 80px;
+    width: 1100px;
     margin-left: auto;
     margin-right: auto;
-    
+    font-family: Fira Sans;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    }
+.bd-recent-news{
+    display: block;
+    width: 1024px;
     }
 .sl-sec-main1,.sl-sec-hd1,.sl-sec-h1,.sl-sec-jazeera1,.sl-sec-p1,.sl-sec-sl1{
     background-color: white;
@@ -358,30 +377,24 @@
     font-family: Fira Sans;
     margin-top: 10px;
     }
-.date{
+.date,.time{
     background-color: white;
-    }
-time{
-    background-color: white;
-    }
-.donaton{
-    
     }
 .hp{
-    width: 1024px;
+    width: 920px;
     margin-left: auto;
     margin-right: auto;
-}
+    margin-top: 35px;
+    }
 .donate-h{
-    width: 1024px;
+    width: 160px;
     font-weight: 800px;
     font-family: Fira Sans;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
-    justify-content: center;
     }
 .donate-p{
+    width: 920px;
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
@@ -427,7 +440,6 @@ time{
     margin:19.2px;
     border-radius: 8px;
     border: 1px solid black;
-    
     }
 .donate-h1,.donate-h2{
     margin-top: 35px;
@@ -466,6 +478,8 @@ time{
     border-radius: 5px;
     padding-top: 28px;
     color: rgba(14, 14, 14, 0.3);
+    box-shadow: 5px 5px 25px 0.5px rgb(171, 171, 171);
+
     }
 .button{
     display: block;
@@ -477,7 +491,7 @@ time{
     margin-top: 25.6px;
     color: aliceblue;
     font-family: Fira Sans;
-}
+    }
 .last-div-main{
     height: 316px;
     width: 1024px;
@@ -488,11 +502,11 @@ time{
     margin-top: 25.6px;
     padding: 20px;
     font-family: Fira Sans;
-}
+    }
 .last-div-h2{
     display: block;
     background-color: rgb(198, 228, 214);
-}
+    }
 .last-div-p{
     display: block;
     height: 38.4px;
@@ -501,10 +515,10 @@ time{
     margin-right: auto;
     align-items: center;
     justify-items: justify;
-}
+    }
 .last-div-p,.last-div-buttons{
     background: rgb(198, 228, 214);
-}
+    }
 #last-div-p{
     display: block;
     height: 38.4px;
@@ -528,7 +542,7 @@ time{
     font-size: larger;
     font-family: Fira Sans;
 
-}
+    }
 .last-div-buttons{
     display: flex;
     position:relative;
@@ -536,17 +550,18 @@ time{
     margin-right: auto;
     justify-content: center;
     align-items: center;
-}
+    }
 .last-div-input{
     display: flex;
     height: 44px;
     width: 480px;
+    padding-left: 10px;
+    border: none;
     background-color: white;
     font-family: Fira Sans;
-    border: none;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-}
+    }
 .last-div-button{
     height: 46px;
     width: 120px;
@@ -558,7 +573,7 @@ time{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border: none;
-}
+    }
 .footer-main{
     height: 180.8px;
     width: 1600px;
@@ -568,7 +583,7 @@ time{
     margin-top: 38px;
     align-items: center;
     padding: 40px;
-}
+    }
 .bd-h2{
     display: block;
     width: 177.6px;
@@ -578,10 +593,10 @@ time{
     margin-top: 38px;
     background-color: white;
     font-family: Fira Sans;
-}
+    }
 .bd20-h{
     background-color: white;
-}
+    }
 .photos{
     width: 90px;
     height: 30.4px;
@@ -589,10 +604,10 @@ time{
     margin-right: auto;
     background-color: white;
     margin-top: 30px;
-}
+    }
 .fb,.insta,.x{
     background-color: white;
-}
+    }
 .multiple{
     box-shadow:inset 0px 1px 0px 0px #bbdaf7;
 	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
@@ -608,15 +623,15 @@ time{
 	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #528ecc;
-}
+    }
 .multiple:hover{
     background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
 	background-color:#378de5;
-}
+    }
 .multiple:active{
     position:relative;
 	top:1px;
-}
+    }
 .multiple-2{
     margin-top: 20px;
     box-shadow:inset 0px 1px 0px 0px #bbdaf7;
